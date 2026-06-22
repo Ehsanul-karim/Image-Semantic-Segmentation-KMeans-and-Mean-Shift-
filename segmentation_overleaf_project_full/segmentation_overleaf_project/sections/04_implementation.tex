@@ -1,0 +1,38 @@
+
+\section{Implementation Details}
+The project is implemented in Python using OpenCV, NumPy, scikit-learn, SciPy, Pillow, Pandas, and Matplotlib. The main program is menu-driven and saves every output to a predefined folder, so the results are reproducible and do not remain only as screen previews.
+
+\begin{table}[H]
+\centering
+\caption{Main program components.}
+\begin{tabular}{@{}p{0.28\textwidth}p{0.64\textwidth}@{}}
+\toprule
+File & Purpose \\
+\midrule
+\texttt{main\_3\_final.py} & Builds feature spaces, runs MiniBatch K-means and Mean Shift, saves raw and post-processed segmentation outputs. \\
+\texttt{datasetCreation.py} & Converts annotation JSON polygons into mask, contour, and contour-overlay GT images. \\
+\texttt{evaluate\_2.py} & Evaluates segmentation masks against GT using label matching, confusion matrices, Precision, Recall, IoU, and Boundary F1-score. \\
+\texttt{fast\_eval\_minimal.py} & Helper script used in this package to regenerate compact CSV summaries quickly. \\
+\texttt{evaluate\_peer\_selected.py} & Helper script used to evaluate selected best predictions against peer GT. \\
+\bottomrule
+\end{tabular}
+\label{tab:program-components}
+\end{table}
+
+\subsection{Output folder convention}
+The output folder is organized by image, feature space, and algorithm. For example, a typical result is stored as:
+\begin{lstlisting}
+outputs/Img01/xy_hsv/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+\end{lstlisting}
+This path tells us the image ID, feature set, Mean Shift computation mode, and bandwidth parameter. K-means outputs are stored similarly under a \texttt{KMeans} subfolder.
+
+\subsection{Evaluation protocol}
+The machine-generated segmentation labels do not necessarily have the same numeric/color IDs as the GT labels, so label matching is required before measuring metrics. This package uses many-to-one label matching in the regenerated CSV summaries. That choice is suitable for segmentation because an algorithm may over-segment a single GT object into several pieces; those pieces should still be allowed to map to the same GT class for pixel-level scoring. The normalized confusion matrix is then computed after matching.
+
+The per-class measures are:
+\begin{align}
+\mathrm{Precision} &= \frac{TP}{TP + FP}, &
+\mathrm{Recall} &= \frac{TP}{TP + FN}, &
+\mathrm{IoU} &= \frac{TP}{TP + FP + FN}.
+\end{align}
+Boundary F1-score is computed by extracting class boundaries and allowing a tolerance of 2 pixels. Macro scores are averaged over foreground classes, with background excluded from the macro average but still recorded in the per-class CSV files.

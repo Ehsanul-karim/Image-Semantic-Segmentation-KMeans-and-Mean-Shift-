@@ -1,0 +1,250 @@
+annotations/peer/Img01.json
+annotations/peer/Img02.json
+annotations/peer/Img03.json
+annotations/peer/Img04.json
+annotations/peer/Img05.json
+annotations/peer/Img06.json
+annotations/peer/Img07.json
+annotations/peer/Img08.json
+annotations/peer/Img09.json
+annotations/peer/Img10.json
+annotations/self/Img01.json
+annotations/self/Img02.json
+annotations/self/Img03.json
+annotations/self/Img04.json
+annotations/self/Img05.json
+annotations/self/Img06.json
+annotations/self/Img07.json
+annotations/self/Img08.json
+annotations/self/Img09.json
+annotations/self/Img10.json
+materials/programs/datasetCreation.py
+materials/programs/evaluate_2.py
+materials/programs/evaluate_peer_selected.py
+materials/programs/fast_eval_minimal.py
+materials/programs/main_3_final.py
+materials/programs/requirements.txt
+numerical_results/own_gt/confusion_matrices_long.csv
+numerical_results/own_gt/label_matches.csv
+numerical_results/own_gt/per_class_results.csv
+numerical_results/own_gt/per_image_results.csv
+numerical_results/peer_gt/peer_best_confusion_matrices_long.csv
+numerical_results/peer_gt/peer_best_overall_summary.csv
+numerical_results/peer_gt/peer_best_per_class_results.csv
+numerical_results/peer_gt/peer_best_per_image_results.csv
+numerical_results/summaries/macro_by_algorithm.csv
+numerical_results/summaries/macro_by_feature_algorithm.csv
+numerical_results/summaries/macro_by_method.csv
+numerical_results/summaries/overall_macro_average.csv
+numerical_results/summaries/per_class_results.csv
+numerical_results/summaries/per_image_results.csv
+outputs/GT Ehsanul Karim/Img01/Img01.jpg
+outputs/GT Ehsanul Karim/Img01/Img01.json
+outputs/GT Ehsanul Karim/Img01/contour.png
+outputs/GT Ehsanul Karim/Img01/contour_overlay.png
+outputs/GT Ehsanul Karim/Img01/mask.png
+outputs/Img01/Img01.jpg
+outputs/Img01/Img01.json
+outputs/Img01/contour.png
+outputs/Img01/contour_overlay.png
+outputs/Img01/hsv/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/hsv/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/hsv/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/hsv/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/hsv/KMeans/Img01-segment of 5.png
+outputs/Img01/hsv/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/hsv_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/hsv_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/hsv_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/hsv_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/hsv_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/hsv_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/lab/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/lab/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/lab/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/lab/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/lab/KMeans/Img01-segment of 5.png
+outputs/Img01/lab/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/lab_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/lab_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/lab_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/lab_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/lab_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/lab_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/mask.png
+outputs/Img01/rgb/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/rgb/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/rgb/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/rgb/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/rgb/KMeans/Img01-segment of 5.png
+outputs/Img01/rgb/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/rgb_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/rgb_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/rgb_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/rgb_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/rgb_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/rgb_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/texture/KMeans/Img01-segment of 5.png
+outputs/Img01/texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy/KMeans/Img01-segment of 5.png
+outputs/Img01/xy/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_hsv/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_hsv/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_hsv/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_hsv/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_hsv/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_hsv/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_hsv_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_hsv_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_hsv_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_hsv_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_hsv_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_hsv_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_lab/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_lab/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_lab/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_lab/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_lab/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_lab/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_lab_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_lab_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_lab_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_lab_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_lab_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_lab_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_rgb/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_rgb/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_rgb/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_rgb/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_rgb/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_rgb/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_rgb_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_rgb_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_rgb_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_rgb_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_rgb_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_rgb_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img01/xy_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-0.8.png
+outputs/Img01/xy_texture/Half Resize PCA 95 Mean Shift/Img01-meanshift-1.5.png
+outputs/Img01/xy_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-0.8.png
+outputs/Img01/xy_texture/Half Resize PCA 95 Mean Shift/Post Processed Img01-meanshift-1.5.png
+outputs/Img01/xy_texture/KMeans/Img01-segment of 5.png
+outputs/Img01/xy_texture/KMeans/Postprocessed Img01-segment of 5.png
+outputs/Img02/Img02.jpg
+outputs/Img02/Img02.json
+outputs/Img02/contour.png
+outputs/Img02/contour_overlay.png
+outputs/Img02/hsv/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/hsv/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/hsv/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/hsv/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/hsv/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/hsv/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/hsv_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/hsv_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/lab/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/lab/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/lab/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/lab/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/lab/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/lab/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/lab_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/lab_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/mask.png
+outputs/Img02/rgb/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/rgb/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/rgb/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/rgb/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/rgb/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/rgb/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/rgb_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/rgb_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/texture_dinov2_dinov2_vits14_pca64_max518/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/texture_dinov2_dinov2_vits14_pca64_max518/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_hsv/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_hsv/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_hsv/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_hsv/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_hsv/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_hsv/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_hsv_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_hsv_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_hsv_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_lab/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_lab/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_lab/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_lab/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_lab/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_lab/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_lab_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_lab_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_lab_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_rgb/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_rgb/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_rgb/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_rgb/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_rgb/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_rgb/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_rgb_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_rgb_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_rgb_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_texture_dinov2_dinov2_vits14_pca64_max518/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_texture_dinov2_dinov2_vits14_pca64_max518/KMeans/Postprocessed Img02.jpg-segment of 5.png
+outputs/Img02/xy_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_texture_leung_malik/Half Resize PCA 95 Mean Shift/Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-0.8.png
+outputs/Img02/xy_texture_leung_malik/Half Resize PCA 95 Mean Shift/Post Processed Img02.jpg-meanshift-1.5.png
+outputs/Img02/xy_texture_leung_malik/KMeans/Img02.jpg-segment of 5.png
+outputs/Img02/xy_texture_leung_malik/KMeans/Postprocessed Img02.jpg-segment of 5.png
+peer_ground_truth_images/Img01_contour.png
+peer_ground_truth_images/Img01_contour_overlay.png
+peer_ground_truth_images/Img01_input.png
+peer_ground_truth_images/Img01_mask.png
+peer_ground_truth_images/Img02_contour.png
+peer_ground_truth_images/Img02_contour_overlay.png
+peer_ground_truth_images/Img02_input.png
+peer_ground_truth_images/Img02_mask.png
+peer_ground_truth_images/Img03_contour.png
+peer_ground_truth_images/Img03_contour_overlay.png
+peer_ground_truth_images/Img03_input.png

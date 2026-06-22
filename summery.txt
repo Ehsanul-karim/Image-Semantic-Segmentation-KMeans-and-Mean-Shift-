@@ -1,0 +1,16 @@
+=================================Gabor Filter Bank for Texture Features=======================================
+Image 08 -> Use sampling: RAW implementation of function. 12 combinataions tried.
+Image 09 -> Use sampling: Library function based implementation. 15 combination tried. 
+Image 10 -> Resize Height, Width to 1/4th: Library function based implementation. 15 combination tried. 
+Image 01 -> Resize Height, Width to 1/2th and also Apply PCA retaining 95% variance before Mean Shift: Library function based implementation. 15 combination tried. 
+
+==================================Leung-Malik filter bank ====================================================
+Image 02 -> Resize Height, Width to 1/2th and also Apply PCA retaining 95% variance before Mean Shift: Library function based implementation. 15 combination tried.
+Image 03 -> Resize Height, Width to 1/4th: Library function based implementation. 15 combination tried. 
+Image 04 -> Use sampling: Library function based implementation. 15 combination tried.
+
+==================================GLCM ====================================================================
+
+Image 05 -> Use sampling: Library function based implementation. 15 combination tried.
+Image 06 -> Resize Height, Width to 1/4th: Library function based implementation. 15 combination tried. 
+Image 07 -> Resize Height, Width to 1/2th and also Apply PCA retaining 95% variance before Mean Shift: Library function based implementation. 15 combination tried.

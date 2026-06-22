@@ -1,0 +1,13 @@
+
+\section{Introduction}
+Image segmentation partitions an image into visually meaningful regions. In this assignment the goal is not only to produce a segmented image, but to design and test feature spaces that make clustering easier. A single RGB pixel value is usually insufficient because similar objects may have different illumination, and different objects may share similar colors. The core idea of this project is therefore to describe every pixel with a richer vector containing some or all of the following components:
+\begin{itemize}
+    \item normalized spatial coordinates $(x,y)$, which encourage spatially coherent regions;
+    \item color channels from RGB, HSV, and Lab spaces, which describe appearance from complementary viewpoints;
+    \item texture responses from filter banks or statistical texture descriptors, which help separate surfaces that are similar in color but different in local pattern;
+    \item dimension reduction and sampling strategies so that Mean Shift remains practical for high-dimensional feature spaces.
+\end{itemize}
+
+The project evaluates these feature spaces with two unsupervised clustering algorithms: MiniBatch K-means and Mean Shift. K-means gives a fast baseline with a fixed number of regions, while Mean Shift estimates modes in feature space and can adapt the number of clusters to the data distribution \citep{macqueen1967,llyod1982,comaniciu2002}. The segmentation masks are then post-processed and compared with the manually prepared ground truth using label matching, normalized confusion matrices, Precision, Recall, Intersection-over-Union (IoU), and Boundary F1-score.
+
+\textbf{Main contribution.} The implemented method is an adaptive color--spatial--texture segmentation pipeline. Instead of using one fixed feature vector for all images, the project tests separate features and combinations, then uses the most suitable texture family and computational mode according to image scale and visual structure. This makes the project stronger than a direct ``RGB + K-means'' implementation because it systematically studies how each feature source affects segmentation quality.

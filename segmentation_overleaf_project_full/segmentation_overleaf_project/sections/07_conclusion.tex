@@ -1,0 +1,7 @@
+
+\section{Conclusion}
+This project presents a complete segmentation workflow from manual annotation to quantitative evaluation. The proposed idea is to convert pixels into adaptive feature spaces that combine spatial position, color, and texture, then apply K-means and Mean Shift clustering with practical speed controls such as sampling, resizing, and PCA. The final package includes all required materials: GT masks/contours/overlays, peer GT, annotation JSON files, program files, full output images, and CSV results.
+
+The experiments show that color-space and spatial combinations, especially XY + Lab and XY + HSV with Mean Shift, are strong choices for this image set. Texture features are valuable but should be selected carefully according to image content, since high-dimensional filter responses can make Mean Shift slower and sometimes less stable. The added peer-GT evaluation provides an extra check of annotation robustness and shows that the selected best outputs remain strong against another annotator's masks.
+
+Future improvements would include a fully unified Gaussian/Epanechnikov Mean Shift implementation for all images, automatic bandwidth selection, and a deeper comparison between Gabor, Leung--Malik, GLCM, and learned texture descriptors such as DINO-style features.

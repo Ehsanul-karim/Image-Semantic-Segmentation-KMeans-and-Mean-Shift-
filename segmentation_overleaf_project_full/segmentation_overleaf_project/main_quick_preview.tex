@@ -1,0 +1,72 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{pdflscape}
+\usepackage{adjustbox}
+\usepackage[numbers,sort&compress]{natbib}
+
+\hypersetup{colorlinks=true, linkcolor=blue!55!black, citecolor=blue!55!black, urlcolor=blue!55!black}
+\lstset{basicstyle=\ttfamily\scriptsize, breaklines=true, frame=single, columns=fullflexible, keepspaces=true, showstringspaces=false}
+\captionsetup{font=small, labelfont=bf}
+\setlist[itemize]{leftmargin=1.3em}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0pt}
+
+\newif\ifincludeallresultgallery
+\includeallresultgalleryfalse
+% For a quick Overleaf preview, change the previous line to: \includeallresultgalleryfalse
+
+\title{\textbf{Image Segmentation Using Adaptive Color--Spatial--Texture Feature Spaces}\\[0.3em]
+\large Advanced Digital Image Processing (CSE 6243), Assignment 02}
+\author{Student Name: \textbf{Your Name} \\ Roll No.: \textbf{Your Roll No.} \\ Department of Computer Science and Engineering, KUET}
+\date{January Semester 2026}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This project implements unsupervised image segmentation using multiple feature-space representations built from color, normalized spatial location, and texture responses. The system prepares manual ground-truth masks and contours from LabelMe-style polygon annotations, generates segmentation outputs using MiniBatch K-means and Mean Shift clustering, applies connected-component post-processing, and evaluates each result against ground truth after label matching. The submitted material contains \textbf{478 post-processed segmentation cases} across ten images, full program files, self and peer ground-truth images, annotation files, qualitative output images, and CSV files containing Precision, Recall, IoU, Boundary F1-score, and normalized confusion matrix values. A peer-ground-truth test is also included using the selected best prediction for each image.
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\clearpage
+
+\input{sections/01_introduction}
+\input{sections/02_dataset_gt}
+\input{sections/03_methodology}
+\input{sections/04_implementation}
+\input{sections/05_results}
+\input{sections/06_peer_gt}
+\input{sections/07_conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\input{appendices/A_file_heads}
+\input{appendices/B_gt_gallery}
+\ifincludeallresultgallery
+  \input{appendices/C_all_result_gallery}
+\else
+  \section{Full Output Gallery Placeholder}
+  The file \texttt{appendices/C\_all\_result\_gallery.tex} contains all 478 generated result figures. It is disabled only when \texttt{\textbackslash includeallresultgalleryfalse} is selected for faster preview compilation.
+\fi
+
+\end{document}

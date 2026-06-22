@@ -1,0 +1,2 @@
+n_predictions,n_images,macro_precision,macro_recall,macro_iou,macro_boundary_f1,pixel_accuracy
+478,10,0.613803290383029,0.47106045549233316,0.3776009609343684,0.1972095573116178,0.5118296961355617
